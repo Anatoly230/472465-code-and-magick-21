@@ -12,7 +12,7 @@ const getWizardHeight = function(){
 };
 
 const getWizardX = function(gameFlorWidth){
-return gameFlorWidth / 2;
+return (gameFlorWidth - wizardWidth) / 2;
 };
 
 const getWizardX = function(gameFlorHeight){
