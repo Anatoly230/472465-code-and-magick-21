@@ -1,20 +1,20 @@
 "use strict"
 
-const fireballSize = 22;
-const getFireballSpeed = function (isMoveToright){
-  return isMoveToLeft ? 5 : 2;
+var fireballSize = 22;
+var getFireballSpeed = function (isMoveToLeft){
+  return isMoveToLeft ? 2 : 5;
 }
 
-const wizardSpeed = 3;
-const wizardWidth = 70;
-const getWizardHeight = function(){
+var wizardSpeed = 3;
+var wizardWidth = 70;
+var getWizardHeight = function(){
   return 1.337 * wizardWidth;
 };
 
-const getWizardX = function(gameFlorWidth){
+var getWizardX = function(gameFlorWidth){
 return (gameFlorWidth - wizardWidth) / 2;
 };
 
-const getWizardX = function(gameFlorHeight){
+var getWizardY = function(gameFlorHeight){
 return gameFlorHeight / 3;
 };
