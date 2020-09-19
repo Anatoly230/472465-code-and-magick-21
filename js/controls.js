@@ -12,9 +12,9 @@ var getWizardHeight = function(){
 };
 
 var getWizardX = function(gameFlorWidth){
-return (gameFlorWidth - wizardWidth) / 2;
+  return (gameFlorWidth - wizardWidth) / 2;
 };
 
 var getWizardY = function(gameFlorHeight){
-return gameFlorHeight / 3;
+  return gameFlorHeight / 3;
 };
