@@ -79,3 +79,5 @@ window.renderStatistics = (ctx, players, times) => {
 
 
 };
+
+
