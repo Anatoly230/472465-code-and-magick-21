@@ -1,20 +1,20 @@
 "use strict";
 
-var fireballSize = 22;
-var getFireballSpeed = function (isMoveToLeft) {
+let fireballSize = 22;
+let getFireballSpeed = function (isMoveToLeft) {
   return isMoveToLeft ? 2 : 5;
 };
 
-var wizardSpeed = 3;
-var wizardWidth = 70;
-var getWizardHeight = function () {
+let wizardSpeed = 3;
+let wizardWidth = 70;
+let getWizardHeight = function () {
   return 1.337 * wizardWidth;
 };
 
-var getWizardX = function (gameFlorWidth) {
+let getWizardX = function (gameFlorWidth) {
   return (gameFlorWidth - wizardWidth) / 2;
 };
 
-var getWizardY = function (gameFlorHeight) {
+let getWizardY = function (gameFlorHeight) {
   return gameFlorHeight / 3;
 };
