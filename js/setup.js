@@ -59,7 +59,7 @@ obj.eyesColor = selectFromArray(eyesColors);
 return obj
   };
 
-for (let i = 0; i < names.length; i++) {
+for (let i = 0; i < 4; i++) {
 wizards[i] = initialObj(names, surNames, coatColors, eyesColors);
 };
 
